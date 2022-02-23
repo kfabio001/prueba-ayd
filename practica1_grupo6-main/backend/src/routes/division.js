@@ -7,7 +7,7 @@ router.get("/division", (req, res) => {
     const numero2 = req.query.numero2;
 
 
-    // calculo de division
+    // calculo de division 
     var resultado;
     /* hotfix Validacion division entre 0*/
     if(numero2==0){
