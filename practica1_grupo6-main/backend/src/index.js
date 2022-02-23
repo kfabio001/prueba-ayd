@@ -20,6 +20,8 @@ app.use('/', require('./routes/division'));
 app.use('/', require('./routes/raiz'));
 app.use('/', require('./routes/potencia'));
 
+
+//
 // starting the server
 app.listen(app.get('port'), () => {
     console.log(`Server on port ${app.get('port')}`);
